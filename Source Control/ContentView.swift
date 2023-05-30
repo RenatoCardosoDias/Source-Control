@@ -18,7 +18,7 @@ struct ContentView: View {
                 Rectangle().fill(Color.gray)
             }
                 .ignoresSafeArea()
-                .navigationTitle("Source Control ++++")
+                .navigationTitle("This is Source Control ++++")
         }
     }
 }
