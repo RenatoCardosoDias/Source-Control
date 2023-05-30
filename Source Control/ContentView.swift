@@ -10,7 +10,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView{
-            Rectangle().fill(Color.red)
+            VStack{
+                Rectangle().fill(Color.red)
+                Rectangle().fill(Color.yellow)
+                Rectangle().fill(Color.blue)
+            }
                 .ignoresSafeArea()
                 .navigationTitle("Source Control")
         }
